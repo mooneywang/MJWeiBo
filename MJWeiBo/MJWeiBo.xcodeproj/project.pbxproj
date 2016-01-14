@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6497EC1C46665F00C6BCB7 /* MJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */; };
+		CD6497EF1C46667200C6BCB7 /* MJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */; };
+		CD6497F21C46668D00C6BCB7 /* MJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */; };
+		CD6497F51C46669700C6BCB7 /* MJProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */; };
+		CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */; };
+		CD6497FC1C4677B100C6BCB7 /* MJTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */; };
+		CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */; };
+		CDCFCACB1C451E5F00CE30CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACA1C451E5F00CE30CC /* main.m */; };
+		CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */; };
+		CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD51C451E5F00CE30CC /* Images.xcassets */; };
+		CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */; };
+		CDCFCAE51C451E6000CE30CC /* MJWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDCFCADF1C451E6000CE30CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCFCABD1C451E5F00CE30CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCFCAC41C451E5F00CE30CC;
+			remoteInfo = MJWeiBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6497E91C46657700C6BCB7 /* MJWeiBo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJWeiBo.pch; sourceTree = "<group>"; };
+		CD6497EA1C46665F00C6BCB7 /* MJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHomeViewController.h; sourceTree = "<group>"; };
+		CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHomeViewController.m; sourceTree = "<group>"; };
+		CD6497ED1C46667200C6BCB7 /* MJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMessageViewController.h; sourceTree = "<group>"; };
+		CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMessageViewController.m; sourceTree = "<group>"; };
+		CD6497F01C46668D00C6BCB7 /* MJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDiscoverViewController.h; sourceTree = "<group>"; };
+		CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDiscoverViewController.m; sourceTree = "<group>"; };
+		CD6497F31C46669700C6BCB7 /* MJProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProfileViewController.h; sourceTree = "<group>"; };
+		CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProfileViewController.m; sourceTree = "<group>"; };
+		CD6497F61C466F9200C6BCB7 /* MJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTabBarController.h; sourceTree = "<group>"; };
+		CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTabBarController.m; sourceTree = "<group>"; };
+		CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTest1ViewController.h; sourceTree = "<group>"; };
+		CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTest1ViewController.m; sourceTree = "<group>"; };
+		CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJTest1ViewController.xib; sourceTree = "<group>"; };
+		CDCFCAC51C451E5F00CE30CC /* MJWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCFCAC91C451E5F00CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCFCACA1C451E5F00CE30CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDCFCACC1C451E5F00CE30CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDCFCAD51C451E5F00CE30CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDCFCAD81C451E5F00CE30CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CDCFCADE1C451E6000CE30CC /* MJWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCFCAE31C451E6000CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJWeiBoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCFCAC21C451E5F00CE30CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFCADB1C451E6000CE30CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCFCABC1C451E5F00CE30CC = {
+			isa = PBXGroup;
+			children = (
+				CDCFCAC71C451E5F00CE30CC /* MJWeiBo */,
+				CDCFCAE11C451E6000CE30CC /* MJWeiBoTests */,
+				CDCFCAC61C451E5F00CE30CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCFCAC61C451E5F00CE30CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFCAC51C451E5F00CE30CC /* MJWeiBo.app */,
+				CDCFCADE1C451E6000CE30CC /* MJWeiBoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCFCAC71C451E5F00CE30CC /* MJWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFCACC1C451E5F00CE30CC /* AppDelegate.h */,
+				CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */,
+				CD6497F61C466F9200C6BCB7 /* MJTabBarController.h */,
+				CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */,
+				CD6497EA1C46665F00C6BCB7 /* MJHomeViewController.h */,
+				CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */,
+				CD6497ED1C46667200C6BCB7 /* MJMessageViewController.h */,
+				CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */,
+				CD6497F01C46668D00C6BCB7 /* MJDiscoverViewController.h */,
+				CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */,
+				CD6497F31C46669700C6BCB7 /* MJProfileViewController.h */,
+				CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */,
+				CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */,
+				CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */,
+				CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */,
+				CDCFCAC81C451E5F00CE30CC /* Supporting Files */,
+			);
+			path = MJWeiBo;
+			sourceTree = "<group>";
+		};
+		CDCFCAC81C451E5F00CE30CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6497E91C46657700C6BCB7 /* MJWeiBo.pch */,
+				CDCFCAD51C451E5F00CE30CC /* Images.xcassets */,
+				CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */,
+				CDCFCAC91C451E5F00CE30CC /* Info.plist */,
+				CDCFCACA1C451E5F00CE30CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDCFCAE11C451E6000CE30CC /* MJWeiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */,
+				CDCFCAE21C451E6000CE30CC /* Supporting Files */,
+			);
+			path = MJWeiBoTests;
+			sourceTree = "<group>";
+		};
+		CDCFCAE21C451E6000CE30CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFCAE31C451E6000CE30CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCFCAC41C451E5F00CE30CC /* MJWeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCFCAE81C451E6000CE30CC /* Build configuration list for PBXNativeTarget "MJWeiBo" */;
+			buildPhases = (
+				CDCFCAC11C451E5F00CE30CC /* Sources */,
+				CDCFCAC21C451E5F00CE30CC /* Frameworks */,
+				CDCFCAC31C451E5F00CE30CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJWeiBo;
+			productName = MJWeiBo;
+			productReference = CDCFCAC51C451E5F00CE30CC /* MJWeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDCFCADD1C451E6000CE30CC /* MJWeiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCFCAEB1C451E6000CE30CC /* Build configuration list for PBXNativeTarget "MJWeiBoTests" */;
+			buildPhases = (
+				CDCFCADA1C451E6000CE30CC /* Sources */,
+				CDCFCADB1C451E6000CE30CC /* Frameworks */,
+				CDCFCADC1C451E6000CE30CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCFCAE01C451E6000CE30CC /* PBXTargetDependency */,
+			);
+			name = MJWeiBoTests;
+			productName = MJWeiBoTests;
+			productReference = CDCFCADE1C451E6000CE30CC /* MJWeiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCFCABD1C451E5F00CE30CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mooney_wang;
+				TargetAttributes = {
+					CDCFCAC41C451E5F00CE30CC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CDCFCADD1C451E6000CE30CC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CDCFCAC41C451E5F00CE30CC;
+					};
+				};
+			};
+			buildConfigurationList = CDCFCAC01C451E5F00CE30CC /* Build configuration list for PBXProject "MJWeiBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDCFCABC1C451E5F00CE30CC;
+			productRefGroup = CDCFCAC61C451E5F00CE30CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCFCAC41C451E5F00CE30CC /* MJWeiBo */,
+				CDCFCADD1C451E6000CE30CC /* MJWeiBoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCFCAC31C451E5F00CE30CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */,
+				CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */,
+				CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFCADC1C451E6000CE30CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCFCAC11C451E5F00CE30CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6497EC1C46665F00C6BCB7 /* MJHomeViewController.m in Sources */,
+				CD6497FC1C4677B100C6BCB7 /* MJTest1ViewController.m in Sources */,
+				CD6497F21C46668D00C6BCB7 /* MJDiscoverViewController.m in Sources */,
+				CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */,
+				CDCFCACB1C451E5F00CE30CC /* main.m in Sources */,
+				CD6497EF1C46667200C6BCB7 /* MJMessageViewController.m in Sources */,
+				CD6497F51C46669700C6BCB7 /* MJProfileViewController.m in Sources */,
+				CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFCADA1C451E6000CE30CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFCAE51C451E6000CE30CC /* MJWeiBoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDCFCAE01C451E6000CE30CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCFCAC41C451E5F00CE30CC /* MJWeiBo */;
+			targetProxy = CDCFCADF1C451E6000CE30CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCFCAD81C451E5F00CE30CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCFCAE61C451E6000CE30CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDCFCAE71C451E6000CE30CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCFCAE91C451E6000CE30CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MJWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDCFCAEA1C451E6000CE30CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MJWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDCFCAEC1C451E6000CE30CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MJWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJWeiBo.app/MJWeiBo";
+			};
+			name = Debug;
+		};
+		CDCFCAED1C451E6000CE30CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MJWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJWeiBo.app/MJWeiBo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCFCAC01C451E5F00CE30CC /* Build configuration list for PBXProject "MJWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFCAE61C451E6000CE30CC /* Debug */,
+				CDCFCAE71C451E6000CE30CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFCAE81C451E6000CE30CC /* Build configuration list for PBXNativeTarget "MJWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFCAE91C451E6000CE30CC /* Debug */,
+				CDCFCAEA1C451E6000CE30CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFCAEB1C451E6000CE30CC /* Build configuration list for PBXNativeTarget "MJWeiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFCAEC1C451E6000CE30CC /* Debug */,
+				CDCFCAED1C451E6000CE30CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCFCABD1C451E5F00CE30CC /* Project object */;
+}

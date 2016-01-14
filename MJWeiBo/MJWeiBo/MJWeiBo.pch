@@ -1,0 +1,16 @@
+//
+//  MJWeiBo.pch
+//  MJWeiBo
+//
+//  Created by 王梦杰 on 16/1/13.
+//  Copyright (c) 2016年 Mooney_wang. All rights reserved.
+//
+
+#ifndef MJWeiBo_MJWeiBo_pch
+#define MJWeiBo_MJWeiBo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif
