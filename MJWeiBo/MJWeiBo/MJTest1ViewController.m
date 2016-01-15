@@ -7,6 +7,7 @@
 //
 
 #import "MJTest1ViewController.h"
+#import "MJTest2ViewController.h"
 
 @interface MJTest1ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    MJTest2ViewController *test2 = [[MJTest2ViewController alloc] init];
+    [self.navigationController pushViewController:test2 animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

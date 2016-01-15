@@ -14,6 +14,9 @@
 		CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */; };
 		CD6497FC1C4677B100C6BCB7 /* MJTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */; };
 		CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */; };
+		CDA709E61C48CF780045C746 /* MJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA709E51C48CF780045C746 /* MJNavigationController.m */; };
+		CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */; };
+		CDA709EB1C48D0BC0045C746 /* MJTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */; };
 		CDCFCACB1C451E5F00CE30CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACA1C451E5F00CE30CC /* main.m */; };
 		CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */; };
 		CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD51C451E5F00CE30CC /* Images.xcassets */; };
@@ -46,6 +49,11 @@
 		CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTest1ViewController.h; sourceTree = "<group>"; };
 		CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTest1ViewController.m; sourceTree = "<group>"; };
 		CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJTest1ViewController.xib; sourceTree = "<group>"; };
+		CDA709E41C48CF780045C746 /* MJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNavigationController.h; sourceTree = "<group>"; };
+		CDA709E51C48CF780045C746 /* MJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNavigationController.m; sourceTree = "<group>"; };
+		CDA709E71C48D0BC0045C746 /* MJTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTest2ViewController.h; sourceTree = "<group>"; };
+		CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTest2ViewController.m; sourceTree = "<group>"; };
+		CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJTest2ViewController.xib; sourceTree = "<group>"; };
 		CDCFCAC51C451E5F00CE30CC /* MJWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCFCAC91C451E5F00CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDCFCACA1C451E5F00CE30CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,6 +120,11 @@
 				CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */,
 				CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */,
 				CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */,
+				CDA709E71C48D0BC0045C746 /* MJTest2ViewController.h */,
+				CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */,
+				CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */,
+				CDA709E41C48CF780045C746 /* MJNavigationController.h */,
+				CDA709E51C48CF780045C746 /* MJNavigationController.m */,
 				CDCFCAC81C451E5F00CE30CC /* Supporting Files */,
 			);
 			path = MJWeiBo;
@@ -229,6 +242,7 @@
 			files = (
 				CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */,
 				CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */,
+				CDA709EB1C48D0BC0045C746 /* MJTest2ViewController.xib in Resources */,
 				CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +267,10 @@
 				CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */,
 				CDCFCACB1C451E5F00CE30CC /* main.m in Sources */,
 				CD6497EF1C46667200C6BCB7 /* MJMessageViewController.m in Sources */,
+				CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */,
 				CD6497F51C46669700C6BCB7 /* MJProfileViewController.m in Sources */,
 				CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */,
+				CDA709E61C48CF780045C746 /* MJNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,9 +389,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MJWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -384,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MJWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

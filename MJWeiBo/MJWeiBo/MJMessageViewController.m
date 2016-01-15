@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellId"];
 }
 
@@ -36,10 +37,12 @@
 
 #pragma mark -
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    MJTest1ViewController *testVc = [[MJTest1ViewController alloc] init];
+    
+    MJTest1ViewController *testVc = [[MJTest1ViewController alloc] initWithNibName:@"MJTest1ViewController" bundle:nil];
     testVc.hidesBottomBarWhenPushed = YES;
     
     [self.navigationController pushViewController:testVc animated:YES];
+    
 }
 
 @end

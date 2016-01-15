@@ -1,22 +1,22 @@
 //
-//  MJDiscoverViewController.m
+//  MJTest2ViewController.m
 //  MJWeiBo
 //
-//  Created by 王梦杰 on 16/1/13.
+//  Created by 王梦杰 on 16/1/15.
 //  Copyright (c) 2016年 Mooney_wang. All rights reserved.
 //
 
-#import "MJDiscoverViewController.h"
+#import "MJTest2ViewController.h"
 
-@interface MJDiscoverViewController ()
+@interface MJTest2ViewController ()
 
 @end
 
-@implementation MJDiscoverViewController
+@implementation MJTest2ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
