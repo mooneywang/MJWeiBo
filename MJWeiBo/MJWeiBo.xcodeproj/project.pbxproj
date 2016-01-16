@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD6497EC1C46665F00C6BCB7 /* MJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */; };
-		CD6497EF1C46667200C6BCB7 /* MJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */; };
-		CD6497F21C46668D00C6BCB7 /* MJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */; };
-		CD6497F51C46669700C6BCB7 /* MJProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */; };
-		CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */; };
+		CD32729A1C4925D500B61B05 /* MJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272771C4925D500B61B05 /* MJDiscoverViewController.m */; };
+		CD32729B1C4925D500B61B05 /* MJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32727D1C4925D500B61B05 /* MJHomeViewController.m */; };
+		CD32729C1C4925D500B61B05 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272831C4925D500B61B05 /* UIView+Extension.m */; };
+		CD32729E1C4925D500B61B05 /* MJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272881C4925D500B61B05 /* MJNavigationController.m */; };
+		CD32729F1C4925D500B61B05 /* MJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32728A1C4925D500B61B05 /* MJTabBarController.m */; };
+		CD3272A01C4925D500B61B05 /* MJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272911C4925D500B61B05 /* MJMessageViewController.m */; };
+		CD3272A11C4925D500B61B05 /* MJProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272971C4925D500B61B05 /* MJProfileViewController.m */; };
+		CD3272A41C492EA900B61B05 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272A31C492EA900B61B05 /* UIBarButtonItem+Extension.m */; };
+		CD3272A91C49524800B61B05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272A71C49524800B61B05 /* AppDelegate.m */; };
+		CD3272AA1C49524800B61B05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3272A81C49524800B61B05 /* main.m */; };
 		CD6497FC1C4677B100C6BCB7 /* MJTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */; };
 		CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */; };
-		CDA709E61C48CF780045C746 /* MJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA709E51C48CF780045C746 /* MJNavigationController.m */; };
 		CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */; };
 		CDA709EB1C48D0BC0045C746 /* MJTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */; };
-		CDCFCACB1C451E5F00CE30CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACA1C451E5F00CE30CC /* main.m */; };
-		CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */; };
 		CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD51C451E5F00CE30CC /* Images.xcassets */; };
 		CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */; };
 		CDCFCAE51C451E6000CE30CC /* MJWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */; };
@@ -35,30 +37,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3272761C4925D500B61B05 /* MJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDiscoverViewController.h; sourceTree = "<group>"; };
+		CD3272771C4925D500B61B05 /* MJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDiscoverViewController.m; sourceTree = "<group>"; };
+		CD32727C1C4925D500B61B05 /* MJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHomeViewController.h; sourceTree = "<group>"; };
+		CD32727D1C4925D500B61B05 /* MJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHomeViewController.m; sourceTree = "<group>"; };
+		CD3272821C4925D500B61B05 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CD3272831C4925D500B61B05 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CD3272871C4925D500B61B05 /* MJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNavigationController.h; sourceTree = "<group>"; };
+		CD3272881C4925D500B61B05 /* MJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNavigationController.m; sourceTree = "<group>"; };
+		CD3272891C4925D500B61B05 /* MJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTabBarController.h; sourceTree = "<group>"; };
+		CD32728A1C4925D500B61B05 /* MJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTabBarController.m; sourceTree = "<group>"; };
+		CD3272901C4925D500B61B05 /* MJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMessageViewController.h; sourceTree = "<group>"; };
+		CD3272911C4925D500B61B05 /* MJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMessageViewController.m; sourceTree = "<group>"; };
+		CD3272961C4925D500B61B05 /* MJProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProfileViewController.h; sourceTree = "<group>"; };
+		CD3272971C4925D500B61B05 /* MJProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProfileViewController.m; sourceTree = "<group>"; };
+		CD3272A21C492EA900B61B05 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		CD3272A31C492EA900B61B05 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		CD3272A61C49524800B61B05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3272A71C49524800B61B05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3272A81C49524800B61B05 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD6497E91C46657700C6BCB7 /* MJWeiBo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJWeiBo.pch; sourceTree = "<group>"; };
-		CD6497EA1C46665F00C6BCB7 /* MJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJHomeViewController.h; sourceTree = "<group>"; };
-		CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJHomeViewController.m; sourceTree = "<group>"; };
-		CD6497ED1C46667200C6BCB7 /* MJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMessageViewController.h; sourceTree = "<group>"; };
-		CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMessageViewController.m; sourceTree = "<group>"; };
-		CD6497F01C46668D00C6BCB7 /* MJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDiscoverViewController.h; sourceTree = "<group>"; };
-		CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDiscoverViewController.m; sourceTree = "<group>"; };
-		CD6497F31C46669700C6BCB7 /* MJProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProfileViewController.h; sourceTree = "<group>"; };
-		CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProfileViewController.m; sourceTree = "<group>"; };
-		CD6497F61C466F9200C6BCB7 /* MJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTabBarController.h; sourceTree = "<group>"; };
-		CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTabBarController.m; sourceTree = "<group>"; };
 		CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTest1ViewController.h; sourceTree = "<group>"; };
 		CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTest1ViewController.m; sourceTree = "<group>"; };
 		CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJTest1ViewController.xib; sourceTree = "<group>"; };
-		CDA709E41C48CF780045C746 /* MJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNavigationController.h; sourceTree = "<group>"; };
-		CDA709E51C48CF780045C746 /* MJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNavigationController.m; sourceTree = "<group>"; };
 		CDA709E71C48D0BC0045C746 /* MJTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTest2ViewController.h; sourceTree = "<group>"; };
 		CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTest2ViewController.m; sourceTree = "<group>"; };
 		CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJTest2ViewController.xib; sourceTree = "<group>"; };
 		CDCFCAC51C451E5F00CE30CC /* MJWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCFCAC91C451E5F00CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDCFCACA1C451E5F00CE30CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CDCFCACC1C451E5F00CE30CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDCFCAD51C451E5F00CE30CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDCFCAD81C451E5F00CE30CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CDCFCADE1C451E6000CE30CC /* MJWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +90,208 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD3272731C4925D500B61B05 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272741C4925D500B61B05 /* discover(发现) */,
+				CD32727A1C4925D500B61B05 /* home(首页) */,
+				CD3272801C4925D500B61B05 /* main */,
+				CD32728E1C4925D500B61B05 /* messageCenter(消息) */,
+				CD3272941C4925D500B61B05 /* profile(我) */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		CD3272741C4925D500B61B05 /* discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272751C4925D500B61B05 /* controllers */,
+				CD3272781C4925D500B61B05 /* models */,
+				CD3272791C4925D500B61B05 /* views */,
+			);
+			path = "discover(发现)";
+			sourceTree = "<group>";
+		};
+		CD3272751C4925D500B61B05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272761C4925D500B61B05 /* MJDiscoverViewController.h */,
+				CD3272771C4925D500B61B05 /* MJDiscoverViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD3272781C4925D500B61B05 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CD3272791C4925D500B61B05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CD32727A1C4925D500B61B05 /* home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				CD32727B1C4925D500B61B05 /* controllers */,
+				CD32727E1C4925D500B61B05 /* models */,
+				CD32727F1C4925D500B61B05 /* views */,
+			);
+			path = "home(首页)";
+			sourceTree = "<group>";
+		};
+		CD32727B1C4925D500B61B05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD32727C1C4925D500B61B05 /* MJHomeViewController.h */,
+				CD32727D1C4925D500B61B05 /* MJHomeViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD32727E1C4925D500B61B05 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CD32727F1C4925D500B61B05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CD3272801C4925D500B61B05 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272A51C49524800B61B05 /* other */,
+				CD3272811C4925D500B61B05 /* category */,
+				CD3272841C4925D500B61B05 /* controllers */,
+				CD32728B1C4925D500B61B05 /* libs */,
+				CD32728D1C4925D500B61B05 /* views */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		CD3272811C4925D500B61B05 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272821C4925D500B61B05 /* UIView+Extension.h */,
+				CD3272831C4925D500B61B05 /* UIView+Extension.m */,
+				CD3272A21C492EA900B61B05 /* UIBarButtonItem+Extension.h */,
+				CD3272A31C492EA900B61B05 /* UIBarButtonItem+Extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		CD3272841C4925D500B61B05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272871C4925D500B61B05 /* MJNavigationController.h */,
+				CD3272881C4925D500B61B05 /* MJNavigationController.m */,
+				CD3272891C4925D500B61B05 /* MJTabBarController.h */,
+				CD32728A1C4925D500B61B05 /* MJTabBarController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD32728B1C4925D500B61B05 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		CD32728D1C4925D500B61B05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CD32728E1C4925D500B61B05 /* messageCenter(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				CD32728F1C4925D500B61B05 /* controllers */,
+				CD3272921C4925D500B61B05 /* models */,
+				CD3272931C4925D500B61B05 /* views */,
+			);
+			path = "messageCenter(消息)";
+			sourceTree = "<group>";
+		};
+		CD32728F1C4925D500B61B05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272901C4925D500B61B05 /* MJMessageViewController.h */,
+				CD3272911C4925D500B61B05 /* MJMessageViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD3272921C4925D500B61B05 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CD3272931C4925D500B61B05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CD3272941C4925D500B61B05 /* profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272951C4925D500B61B05 /* controllers */,
+				CD3272981C4925D500B61B05 /* models */,
+				CD3272991C4925D500B61B05 /* views */,
+			);
+			path = "profile(我)";
+			sourceTree = "<group>";
+		};
+		CD3272951C4925D500B61B05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272961C4925D500B61B05 /* MJProfileViewController.h */,
+				CD3272971C4925D500B61B05 /* MJProfileViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD3272981C4925D500B61B05 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CD3272991C4925D500B61B05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CD3272A51C49524800B61B05 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				CD3272A61C49524800B61B05 /* AppDelegate.h */,
+				CD3272A71C49524800B61B05 /* AppDelegate.m */,
+				CD3272A81C49524800B61B05 /* main.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 		CDCFCABC1C451E5F00CE30CC = {
 			isa = PBXGroup;
 			children = (
@@ -105,26 +313,13 @@
 		CDCFCAC71C451E5F00CE30CC /* MJWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				CDCFCACC1C451E5F00CE30CC /* AppDelegate.h */,
-				CDCFCACD1C451E5F00CE30CC /* AppDelegate.m */,
-				CD6497F61C466F9200C6BCB7 /* MJTabBarController.h */,
-				CD6497F71C466F9200C6BCB7 /* MJTabBarController.m */,
-				CD6497EA1C46665F00C6BCB7 /* MJHomeViewController.h */,
-				CD6497EB1C46665F00C6BCB7 /* MJHomeViewController.m */,
-				CD6497ED1C46667200C6BCB7 /* MJMessageViewController.h */,
-				CD6497EE1C46667200C6BCB7 /* MJMessageViewController.m */,
-				CD6497F01C46668D00C6BCB7 /* MJDiscoverViewController.h */,
-				CD6497F11C46668D00C6BCB7 /* MJDiscoverViewController.m */,
-				CD6497F31C46669700C6BCB7 /* MJProfileViewController.h */,
-				CD6497F41C46669700C6BCB7 /* MJProfileViewController.m */,
+				CD3272731C4925D500B61B05 /* classes */,
 				CD6497F91C4677B100C6BCB7 /* MJTest1ViewController.h */,
 				CD6497FA1C4677B100C6BCB7 /* MJTest1ViewController.m */,
 				CD6497FB1C4677B100C6BCB7 /* MJTest1ViewController.xib */,
 				CDA709E71C48D0BC0045C746 /* MJTest2ViewController.h */,
 				CDA709E81C48D0BC0045C746 /* MJTest2ViewController.m */,
 				CDA709E91C48D0BC0045C746 /* MJTest2ViewController.xib */,
-				CDA709E41C48CF780045C746 /* MJNavigationController.h */,
-				CDA709E51C48CF780045C746 /* MJNavigationController.m */,
 				CDCFCAC81C451E5F00CE30CC /* Supporting Files */,
 			);
 			path = MJWeiBo;
@@ -137,7 +332,6 @@
 				CDCFCAD51C451E5F00CE30CC /* Images.xcassets */,
 				CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */,
 				CDCFCAC91C451E5F00CE30CC /* Info.plist */,
-				CDCFCACA1C451E5F00CE30CC /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -261,16 +455,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6497EC1C46665F00C6BCB7 /* MJHomeViewController.m in Sources */,
+				CD3272A41C492EA900B61B05 /* UIBarButtonItem+Extension.m in Sources */,
+				CD3272A11C4925D500B61B05 /* MJProfileViewController.m in Sources */,
+				CD32729C1C4925D500B61B05 /* UIView+Extension.m in Sources */,
 				CD6497FC1C4677B100C6BCB7 /* MJTest1ViewController.m in Sources */,
-				CD6497F21C46668D00C6BCB7 /* MJDiscoverViewController.m in Sources */,
-				CDCFCACE1C451E5F00CE30CC /* AppDelegate.m in Sources */,
-				CDCFCACB1C451E5F00CE30CC /* main.m in Sources */,
-				CD6497EF1C46667200C6BCB7 /* MJMessageViewController.m in Sources */,
+				CD32729F1C4925D500B61B05 /* MJTabBarController.m in Sources */,
+				CD32729A1C4925D500B61B05 /* MJDiscoverViewController.m in Sources */,
+				CD3272A91C49524800B61B05 /* AppDelegate.m in Sources */,
+				CD3272A01C4925D500B61B05 /* MJMessageViewController.m in Sources */,
 				CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */,
-				CD6497F51C46669700C6BCB7 /* MJProfileViewController.m in Sources */,
-				CD6497F81C466F9200C6BCB7 /* MJTabBarController.m in Sources */,
-				CDA709E61C48CF780045C746 /* MJNavigationController.m in Sources */,
+				CD32729B1C4925D500B61B05 /* MJHomeViewController.m in Sources */,
+				CD32729E1C4925D500B61B05 /* MJNavigationController.m in Sources */,
+				CD3272AA1C49524800B61B05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +586,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MJWeiBo/MJWeiBo.pch";
 				INFOPLIST_FILE = MJWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,6 +601,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MJWeiBo/MJWeiBo.pch";
 				INFOPLIST_FILE = MJWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

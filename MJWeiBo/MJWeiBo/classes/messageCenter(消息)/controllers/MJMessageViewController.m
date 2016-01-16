@@ -7,6 +7,7 @@
 //
 
 #import "MJMessageViewController.h"
+#import "UIBarButtonItem+Extension.h"
 #import "MJTest1ViewController.h"
 
 @interface MJMessageViewController ()
@@ -19,6 +20,16 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellId"];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"写私信" style:UIBarButtonItemStylePlain target:self action:@selector(composeMessage)];
+    self.navigationItem.rightBarButtonItem.enabled = NO;
+    
+    MJLog(@"MJMessageViewController");
+    
+}
+
+- (void)composeMessage{
+    MJLog(@"%s",__func__);
 }
 
 #pragma mark - UITableViewDatasource
