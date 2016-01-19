@@ -29,6 +29,7 @@
 		CDF915501C4DC0E1005C287F /* MJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF9154F1C4DC0E1005C287F /* MJDropDownMenu.m */; };
 		CDF915521C4DC131005C287F /* MJDropDownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDF915511C4DC131005C287F /* MJDropDownMenu.bundle */; };
 		CDF915551C4DCDAC005C287F /* MJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF915541C4DCDAC005C287F /* MJTabBar.m */; };
+		CDF915D11C4E4DA9005C287F /* MJNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF915D01C4E4DA9005C287F /* MJNewFeatureController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		CDF915511C4DC131005C287F /* MJDropDownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJDropDownMenu.bundle; sourceTree = "<group>"; };
 		CDF915531C4DCDAC005C287F /* MJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTabBar.h; sourceTree = "<group>"; };
 		CDF915541C4DCDAC005C287F /* MJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTabBar.m; sourceTree = "<group>"; };
+		CDF915CF1C4E4DA9005C287F /* MJNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNewFeatureController.h; sourceTree = "<group>"; };
+		CDF915D01C4E4DA9005C287F /* MJNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNewFeatureController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		CD3272731C4925D500B61B05 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				CDF915CD1C4E4D45005C287F /* newFeature(新特性) */,
 				CD3272741C4925D500B61B05 /* discover(发现) */,
 				CD32727A1C4925D500B61B05 /* home(首页) */,
 				CD3272801C4925D500B61B05 /* main */,
@@ -376,6 +380,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CDF915CD1C4E4D45005C287F /* newFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				CDF915CE1C4E4D45005C287F /* controller */,
+			);
+			path = "newFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		CDF915CE1C4E4D45005C287F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDF915CF1C4E4DA9005C287F /* MJNewFeatureController.h */,
+				CDF915D01C4E4DA9005C287F /* MJNewFeatureController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,6 +511,7 @@
 				CDF915551C4DCDAC005C287F /* MJTabBar.m in Sources */,
 				CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */,
 				CDD609361C4D11D7005FCC92 /* MJTitleViewController.m in Sources */,
+				CDF915D11C4E4DA9005C287F /* MJNewFeatureController.m in Sources */,
 				CD32729B1C4925D500B61B05 /* MJHomeViewController.m in Sources */,
 				CD32729E1C4925D500B61B05 /* MJNavigationController.m in Sources */,
 				CD3272AA1C49524800B61B05 /* main.m in Sources */,

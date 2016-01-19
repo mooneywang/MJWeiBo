@@ -26,7 +26,6 @@
     [self initControllers];
     //使用自定义的TabBar替换系统自带的TabBar
     MJTabBar *myTabBar = [[MJTabBar alloc] init];
-    myTabBar.delegate = self;
     myTabBar.frame = self.tabBar.bounds;
 //    self.tabBar = myTabBar;//由于tabBar的属性是readonly，所以不能直接赋值，
     //使用KVC给tabBar属性赋值

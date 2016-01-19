@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "MJTabBarController.h"
+#import "MJNewFeatureController.h"
+
+#define VERSIONKEY @"CFBundleVersion"
 
 @interface AppDelegate ()
 
@@ -20,9 +23,22 @@
     application.statusBarHidden = NO;
     //1.新建window
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    //2.设置window的根控制器
-    MJTabBarController *tabBarController = [[MJTabBarController alloc] init];
-    self.window.rootViewController = tabBarController;
+    //2.设置window的根控制器，需要判断是否是第一次打开该应用
+    //获取沙盒中的版本号
+    NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:VERSIONKEY];
+    //获取当前的版本号
+    NSDictionary *info = [NSBundle mainBundle].infoDictionary;
+    NSString *currentVersion = info[VERSIONKEY];
+    if ([currentVersion isEqualToString:lastVersion]) {//版本号相同，不需要显示新特性界面
+        MJTabBarController *tabBarController = [[MJTabBarController alloc] init];
+        self.window.rootViewController = tabBarController;
+    }else{
+        MJNewFeatureController *newFeatureController = [[MJNewFeatureController alloc] init];
+        self.window.rootViewController = newFeatureController;
+        //存储当前版本号
+        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:VERSIONKEY];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
     //3.显示window
     [self.window makeKeyAndVisible];
     
