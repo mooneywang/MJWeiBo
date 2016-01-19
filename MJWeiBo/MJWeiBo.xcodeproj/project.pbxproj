@@ -24,6 +24,11 @@
 		CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD51C451E5F00CE30CC /* Images.xcassets */; };
 		CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCFCAD71C451E5F00CE30CC /* LaunchScreen.xib */; };
 		CDCFCAE51C451E6000CE30CC /* MJWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */; };
+		CDD609301C4D0321005FCC92 /* MJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6092F1C4D0321005FCC92 /* MJSearchBar.m */; };
+		CDD609361C4D11D7005FCC92 /* MJTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD609351C4D11D7005FCC92 /* MJTitleViewController.m */; };
+		CDF915501C4DC0E1005C287F /* MJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF9154F1C4DC0E1005C287F /* MJDropDownMenu.m */; };
+		CDF915521C4DC131005C287F /* MJDropDownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDF915511C4DC131005C287F /* MJDropDownMenu.bundle */; };
+		CDF915551C4DCDAC005C287F /* MJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF915541C4DCDAC005C287F /* MJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,15 @@
 		CDCFCADE1C451E6000CE30CC /* MJWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCFCAE31C451E6000CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDCFCAE41C451E6000CE30CC /* MJWeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJWeiBoTests.m; sourceTree = "<group>"; };
+		CDD6092E1C4D0321005FCC92 /* MJSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSearchBar.h; sourceTree = "<group>"; };
+		CDD6092F1C4D0321005FCC92 /* MJSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSearchBar.m; sourceTree = "<group>"; };
+		CDD609341C4D11D7005FCC92 /* MJTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTitleViewController.h; sourceTree = "<group>"; };
+		CDD609351C4D11D7005FCC92 /* MJTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTitleViewController.m; sourceTree = "<group>"; };
+		CDF9154E1C4DC0E1005C287F /* MJDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDropDownMenu.h; sourceTree = "<group>"; };
+		CDF9154F1C4DC0E1005C287F /* MJDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDropDownMenu.m; sourceTree = "<group>"; };
+		CDF915511C4DC131005C287F /* MJDropDownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJDropDownMenu.bundle; sourceTree = "<group>"; };
+		CDF915531C4DCDAC005C287F /* MJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTabBar.h; sourceTree = "<group>"; };
+		CDF915541C4DCDAC005C287F /* MJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +164,8 @@
 			children = (
 				CD32727C1C4925D500B61B05 /* MJHomeViewController.h */,
 				CD32727D1C4925D500B61B05 /* MJHomeViewController.m */,
+				CDD609341C4D11D7005FCC92 /* MJTitleViewController.h */,
+				CDD609351C4D11D7005FCC92 /* MJTitleViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -212,6 +228,13 @@
 		CD32728D1C4925D500B61B05 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				CDD6092E1C4D0321005FCC92 /* MJSearchBar.h */,
+				CDD6092F1C4D0321005FCC92 /* MJSearchBar.m */,
+				CDF9154E1C4DC0E1005C287F /* MJDropDownMenu.h */,
+				CDF9154F1C4DC0E1005C287F /* MJDropDownMenu.m */,
+				CDF915511C4DC131005C287F /* MJDropDownMenu.bundle */,
+				CDF915531C4DCDAC005C287F /* MJTabBar.h */,
+				CDF915541C4DCDAC005C287F /* MJTabBar.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -436,6 +459,7 @@
 			files = (
 				CDCFCAD91C451E5F00CE30CC /* LaunchScreen.xib in Resources */,
 				CD6497FD1C4677B100C6BCB7 /* MJTest1ViewController.xib in Resources */,
+				CDF915521C4DC131005C287F /* MJDropDownMenu.bundle in Resources */,
 				CDA709EB1C48D0BC0045C746 /* MJTest2ViewController.xib in Resources */,
 				CDCFCAD61C451E5F00CE30CC /* Images.xcassets in Resources */,
 			);
@@ -463,10 +487,14 @@
 				CD32729A1C4925D500B61B05 /* MJDiscoverViewController.m in Sources */,
 				CD3272A91C49524800B61B05 /* AppDelegate.m in Sources */,
 				CD3272A01C4925D500B61B05 /* MJMessageViewController.m in Sources */,
+				CDF915551C4DCDAC005C287F /* MJTabBar.m in Sources */,
 				CDA709EA1C48D0BC0045C746 /* MJTest2ViewController.m in Sources */,
+				CDD609361C4D11D7005FCC92 /* MJTitleViewController.m in Sources */,
 				CD32729B1C4925D500B61B05 /* MJHomeViewController.m in Sources */,
 				CD32729E1C4925D500B61B05 /* MJNavigationController.m in Sources */,
 				CD3272AA1C49524800B61B05 /* main.m in Sources */,
+				CDD609301C4D0321005FCC92 /* MJSearchBar.m in Sources */,
+				CDF915501C4DC0E1005C287F /* MJDropDownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

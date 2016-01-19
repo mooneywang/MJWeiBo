@@ -22,9 +22,6 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellId"];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"写私信" style:UIBarButtonItemStylePlain target:self action:@selector(composeMessage)];
-    self.navigationItem.rightBarButtonItem.enabled = NO;
-    
-    MJLog(@"MJMessageViewController");
     
 }
 

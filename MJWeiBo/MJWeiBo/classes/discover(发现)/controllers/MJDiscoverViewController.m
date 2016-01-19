@@ -7,6 +7,7 @@
 //
 
 #import "MJDiscoverViewController.h"
+#import "MJSearchBar.h"
 
 @interface MJDiscoverViewController ()
 
@@ -18,19 +19,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    MJLog(@"MJDiscoverViewController");
-    
-    UITextField *searchBar = [[UITextField alloc] init];
+    MJSearchBar *searchBar = [MJSearchBar searchBar];
     searchBar.frame = CGRectMake(0, 0, 300, 30);
-    searchBar.font = [UIFont systemFontOfSize:13];
-    searchBar.placeholder = @"请输入搜所条件";
-    [searchBar setBackground:[UIImage imageNamed:@"searchbar_textfield_background"]];
-    UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.image = [UIImage imageNamed:@"searchbar_textfield_search_icon"];
-    imageView.size = CGSizeMake(30, 30);
-    imageView.contentMode = UIViewContentModeCenter;
-    searchBar.leftView = imageView;
-    searchBar.leftViewMode = UITextFieldViewModeAlways;
+    searchBar.placeholder = @"请输入搜索条件";
     self.navigationItem.titleView = searchBar;
 }
 
