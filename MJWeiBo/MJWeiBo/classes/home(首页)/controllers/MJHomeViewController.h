@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MJHomeViewController : UIViewController
+@interface MJHomeViewController : UITableViewController
 
 @end

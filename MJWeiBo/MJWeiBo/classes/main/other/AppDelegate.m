@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "MJTabBarController.h"
-#import "MJNewFeatureController.h"
+#import "MJOAuthController.h"
+#import "MJAccount.h"
+#import "MJAccountTool.h"
+#import "UIWindow+Extension.h"
 
 #define VERSIONKEY @"CFBundleVersion"
 
@@ -23,24 +25,26 @@
     application.statusBarHidden = NO;
     //1.新建window
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    //2.设置window的根控制器，需要判断是否是第一次打开该应用
-    //获取沙盒中的版本号
-    NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:VERSIONKEY];
-    //获取当前的版本号
-    NSDictionary *info = [NSBundle mainBundle].infoDictionary;
-    NSString *currentVersion = info[VERSIONKEY];
-    if ([currentVersion isEqualToString:lastVersion]) {//版本号相同，不需要显示新特性界面
-        MJTabBarController *tabBarController = [[MJTabBarController alloc] init];
-        self.window.rootViewController = tabBarController;
-    }else{
-        MJNewFeatureController *newFeatureController = [[MJNewFeatureController alloc] init];
-        self.window.rootViewController = newFeatureController;
-        //存储当前版本号
-        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:VERSIONKEY];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-    }
-    //3.显示window
+    //2.显示window
     [self.window makeKeyAndVisible];
+    
+    //3.设置window的根控制器，需要判断有没有授权过，需要判断是否是第一次打开该应用
+    //获取账号
+    MJAccount *account = [MJAccountTool account];
+    if (account) {
+        //如果存在accessToken，表示以前登录过
+        
+        //选择加载哪一个控制器
+        [self.window switchRootViewController];
+        
+    }else{
+        //之前没有登录过，直接显示授权界面
+        self.window.rootViewController = [[MJOAuthController alloc] init];
+    }
+    
+    
+    
+    
     
     
     return YES;
