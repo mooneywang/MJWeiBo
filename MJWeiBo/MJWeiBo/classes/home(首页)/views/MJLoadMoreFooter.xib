@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aNv-sj-yYq" customClass="MJLoadMoreFooter">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加载更多数据" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nx-bV-qeI">
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rbZ-Wc-Xyv">
+                    <rect key="frame" x="254" y="5" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5Nx-bV-qeI" firstAttribute="top" secondItem="aNv-sj-yYq" secondAttribute="top" id="B8M-pz-KM8"/>
+                <constraint firstAttribute="trailing" secondItem="5Nx-bV-qeI" secondAttribute="trailing" id="qPt-4d-5ph"/>
+                <constraint firstItem="5Nx-bV-qeI" firstAttribute="leading" secondItem="aNv-sj-yYq" secondAttribute="leading" id="xBY-h0-zT8"/>
+                <constraint firstAttribute="bottom" secondItem="5Nx-bV-qeI" secondAttribute="bottom" id="yvZ-Sg-zMJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="430" y="-35"/>
+        </view>
+    </objects>
+</document>

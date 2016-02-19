@@ -39,6 +39,7 @@
     //设置plusButton的位置
     self.plusButton.centerX = self.width * 0.5;
     self.plusButton.centerY = self.height * 0.5;
+    NSLog(@"(%f,%f)",self.plusButton.centerX, self.plusButton.centerY);
     self.plusButton.size = self.plusButton.currentBackgroundImage.size;
     
     for (UIView *childView in self.subviews) {
