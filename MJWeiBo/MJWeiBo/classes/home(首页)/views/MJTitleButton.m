@@ -32,7 +32,7 @@
     [super layoutSubviews];
     
     //调整titleLabel
-    self.titleLabel.x = 0;
+    self.titleLabel.x = self.imageView.x;
     
     //调整imageView
     self.imageView.x = CGRectGetMaxX(self.titleLabel.frame) + MJMargin;

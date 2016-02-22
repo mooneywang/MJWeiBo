@@ -9,6 +9,7 @@
 #import "MJStatusPhotosView.h"
 #import "MJPhoto.h"
 #import "UIImageView+WebCache.h"
+#import "MJStatusPhotoView.h"
 
 //如果是4张图片的话，最大列数是2
 #define MJMaxColumn(count) ((count == 4)?2:3)
@@ -45,16 +46,17 @@
     
     //创建足够数量的UIImageView
     while (self.subviews.count < photos.count) {
-        UIImageView *imageView = [[UIImageView alloc] init];
+        MJStatusPhotoView *imageView = [[MJStatusPhotoView alloc] init];
         [self addSubview:imageView];
     }
     
     //遍历所有图片控件，设置图片
     for (int i = 0; i < self.subviews.count; i++) {
-        UIImageView *photoView = self.subviews[i];
+        MJStatusPhotoView *photoView = self.subviews[i];
         
         if (i < photos.count) {//显示并设置图片
             MJPhoto *photo = photos[i];
+            photoView.photo = photo;
             [photoView sd_setImageWithURL:[NSURL URLWithString:photo.thumbnail_pic] placeholderImage:[UIImage imageNamed:@"timeline_image_placeholder"]];
             
             photoView.hidden = NO;
@@ -68,9 +70,9 @@
     [super layoutSubviews];
     int maxCol = MJMaxColumn(self.photos.count);
     //设置图片和尺寸
-    int photosCount = self.photos.count;
+    NSUInteger photosCount = self.photos.count;
     for (int i = 0; i < photosCount; i++) {
-        UIImageView *photoView = self.subviews[i];
+        MJStatusPhotoView *photoView = self.subviews[i];
         photoView.width = MJStatusPhotoWH;
         photoView.height = MJStatusPhotoWH;
         int row = i / maxCol;

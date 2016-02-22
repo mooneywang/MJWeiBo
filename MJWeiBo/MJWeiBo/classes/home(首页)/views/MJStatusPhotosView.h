@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 //一张图片的宽和高为70
 #define MJStatusPhotoWH 70
 #define MJStatusPhotoMargin 10

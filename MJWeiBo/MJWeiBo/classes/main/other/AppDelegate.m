@@ -66,7 +66,7 @@
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     
     //向操作系统申请后台运行的资格,能维持多久是不确定的
-    UIBackgroundTaskIdentifier task = [application beginBackgroundTaskWithExpirationHandler:^{
+    __block UIBackgroundTaskIdentifier task = [application beginBackgroundTaskWithExpirationHandler:^{
         //当后台运行时间已经结束（过期），就会调用这个block
         //结束任务
         [application endBackgroundTask:task];

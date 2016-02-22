@@ -14,13 +14,14 @@
 #import "MJPhoto.h"
 #import "MJStatusToolBar.h"
 #import "MJStatusPhotosView.h"
+#import "MJIconView.h"
 
 @interface MJStatusCell ()
 
 /** 原创微博整体 */
 @property(nonatomic ,weak)UIView *originalView;
 /** 头像 */
-@property(nonatomic ,weak)UIImageView *iconView;
+@property(nonatomic ,weak)MJIconView *iconView;
 /** 会员图标 */
 @property(nonatomic ,weak)UIImageView *vipView;
 /** 配图 */
@@ -93,7 +94,7 @@
     originalView.backgroundColor = [UIColor whiteColor];
     
     /** 头像 */
-    UIImageView *iconView = [[UIImageView alloc] init];
+    MJIconView *iconView = [[MJIconView alloc] init];
     [originalView addSubview:iconView];
     self.iconView = iconView;
     
@@ -169,7 +170,8 @@
     MJStatus *status = statusFrame.status;
     //设置子控件的内容
     /** 头像 */
-    [self.iconView sd_setImageWithURL:[NSURL URLWithString:status.user.profile_image_url] placeholderImage:[UIImage imageNamed:@"avatar_default_small"]];
+    self.iconView.user = status.user;
+//    [self.iconView sd_setImageWithURL:[NSURL URLWithString:status.user.profile_image_url] placeholderImage:[UIImage imageNamed:@"avatar_default_small"]];
     /** 会员图标 */
     if (status.user.isVip) {
         self.vipView.hidden = NO;
@@ -184,7 +186,7 @@
     
     /** 配图 */
     if (status.pic_urls.count) {//有配图
-        MJPhoto *photo = [status.pic_urls firstObject];
+//        MJPhoto *photo = [status.pic_urls firstObject];
 #warning TODO 设置图片
         self.photosView.photos = status.pic_urls;
 //        [self.photoView sd_setImageWithURL:[NSURL URLWithString:photo.thumbnail_pic] placeholderImage:[UIImage imageNamed:@"timeline_image_placeholder"]];
@@ -212,7 +214,7 @@
         self.retweetContentLabel.text = [NSString stringWithFormat:@"@%@ : %@",retweetUser.name,retweetStatus.text];
         /** 转发微博图片 */
         if (retweetStatus.pic_urls.count) {//有配图
-            MJPhoto *photo = [retweetStatus.pic_urls firstObject];
+//            MJPhoto *photo = [retweetStatus.pic_urls firstObject];
 #warning TODO 设置图片
             self.retweetPhotosView.photos = retweetStatus.pic_urls;
 //            [self.retweetPhotoView sd_setImageWithURL:[NSURL URLWithString:photo.thumbnail_pic] placeholderImage:[UIImage imageNamed:@"timeline_image_placeholder"]];

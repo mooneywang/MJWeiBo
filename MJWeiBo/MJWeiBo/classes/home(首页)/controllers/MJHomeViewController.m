@@ -69,6 +69,9 @@
     //添加上拉加载更多控件
     [self setupLoadMoreFooter];
     
+    //监听通知,一旦应用被激活，就刷新数据
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadMoreStatuses) name:UIApplicationDidBecomeActiveNotification object:nil];
+    
     //获取未读数
     //每60s调用一次setupUnReadCount方法
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:60 target:self selector:@selector(setupUnReadCount) userInfo:nil repeats:YES];

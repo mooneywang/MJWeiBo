@@ -13,6 +13,7 @@
 #import "MJProfileViewController.h"
 #import "MJNavigationController.h"
 #import "MJTabBar.h"
+#import "MJComposeController.h"
 
 @interface MJTabBarController () <MJTabBarDelegate>
 
@@ -65,21 +66,14 @@
 
 #pragma mark - MJTabBarDelegate
 - (void)tabBarDidClickPlusButton:(UIButton *)button{
-    UIViewController *vCtrl = [[UIViewController alloc] init];
-    vCtrl.view.backgroundColor = [UIColor orangeColor];
-    vCtrl.view.frame = self.view.bounds;
-    UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    closeBtn.frame = CGRectMake(100, 350, 100, 30);
-    [closeBtn setBackgroundColor:[UIColor whiteColor]];
-    [closeBtn setTitle:@"关闭" forState:UIControlStateNormal];
-    [closeBtn addTarget:self action:@selector(closeBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [vCtrl.view addSubview:closeBtn];
-    NSLog(@"%@",NSStringFromCGRect(vCtrl.view.frame));
-    [self presentViewController:vCtrl animated:YES completion:nil];
+    MJComposeController *composeCtrl = [[MJComposeController alloc] init];
+    composeCtrl.view.frame = self.view.bounds;
+    MJNavigationController *navCtrl = [[MJNavigationController alloc] initWithRootViewController:composeCtrl];
+    
+    
+    [self presentViewController:navCtrl animated:YES completion:nil];
 }
 
-- (void)closeBtnClick{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
+
 
 @end
